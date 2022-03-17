@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cc6a30f-898d-43c2-a1ed-54c77bffdac3" name="Changes" comment="Producer and Consumers">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/src/main/java/com/ederson/caldatto/kafkafinanceservice/KafkaFinanceServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/src/main/java/com/ederson/caldatto/kafkafinanceservice/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/src/main/java/com/ederson/caldatto/kafkafinanceservice/domain/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/src/main/java/com/ederson/caldatto/kafkafinanceservice/listener/KafkaSaleListenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-finance-service/src/test/java/com/ederson/caldatto/kafkafinanceservice/KafkaFinanceServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/src/main/java/com/ederson/caldatto/kafkafiscalservice/KafkaFiscalServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/src/main/java/com/ederson/caldatto/kafkafiscalservice/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/src/main/java/com/ederson/caldatto/kafkafiscalservice/domain/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/src/main/java/com/ederson/caldatto/kafkafiscalservice/listener/KafkaSaleListenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-fiscal-service/src/test/java/com/ederson/caldatto/kafkafiscalservice/KafkaFiscalServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/src/main/java/com/ederson/caldatto/kafkainventoryservice/KafkaInventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/src/main/java/com/ederson/caldatto/kafkainventoryservice/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/src/main/java/com/ederson/caldatto/kafkainventoryservice/domain/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/src/main/java/com/ederson/caldatto/kafkainventoryservice/listener/sale/service/KafkaSaleListenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-inventory-service/src/test/java/com/ederson/caldatto/kafkainventoryservice/KafkaInventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/main/java/com/ederson/caldatto/kafkasalesservice/KafkaSalesServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/main/java/com/ederson/caldatto/kafkasalesservice/config/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/main/java/com/ederson/caldatto/kafkasalesservice/controller/SaleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/main/java/com/ederson/caldatto/kafkasalesservice/controller/TestSendMessageKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/main/java/com/ederson/caldatto/kafkasalesservice/domain/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/main/java/com/ederson/caldatto/kafkasalesservice/repository/SaleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/main/java/com/ederson/caldatto/kafkasalesservice/service/SaleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-sales-service/src/test/java/com/ederson/caldatto/kafkasalesservice/KafkaSalesServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26UZkV97KLCawQ0i78saqd9QmFa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="corretto-11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ederson.caldatto.kafkafinanceservice.config" />
+      <recent name="com.ederson.caldatto.kafkafinanceservice.domain" />
+      <recent name="com.ederson.caldatto.kafkafinanceservice.listener" />
+      <recent name="com.ederson.caldatto.kafkafiscalservice.listener" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.KafkaFinanceServiceApplication">
+    <configuration name="KafkaContabilServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-contabil-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ederson.caldatto.kafkacontabilservice.KafkaContabilServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaEmailServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-email-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ederson.caldatto.kafkaemailservice.KafkaEmailServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaFinanceServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-finance-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ederson.caldatto.kafkafinanceservice.KafkaFinanceServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaFiscalServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-fiscal-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ederson.caldatto.kafkafiscalservice.KafkaFiscalServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaInventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-inventory-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ederson.caldatto.kafkainventoryservice.KafkaInventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaSalesServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-sales-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ederson.caldatto.kafkasalesservice.KafkaSalesServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cc6a30f-898d-43c2-a1ed-54c77bffdac3" name="Changes" comment="" />
+      <created>1647480269201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647480269201</updated>
+      <workItem from="1647480270541" duration="1561000" />
+      <workItem from="1647512787636" duration="12494000" />
+      <workItem from="1647535724218" duration="6821000" />
+      <workItem from="1647543098415" duration="571000" />
+    </task>
+    <task id="LOCAL-00001" summary="Producer and Consumers">
+      <created>1647541028515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647541028515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Producer and Consumers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Producer and Consumers" />
+  </component>
+</project>
